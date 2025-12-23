@@ -9,7 +9,7 @@ pipeline {
             steps {
 
                 // Clone the Git repository from the specified URL and branch
-                git url: "https://github.com/shinushiju/Jenkins_CI-CD.git", branch: "main"
+                git url: "https://github.com/shinushiju/Jenkins-CI-CD-with-AWS-EC2.git", branch: "main"
                 
                 // Print a message in the console
                 echo "Successfully cloned the code"
